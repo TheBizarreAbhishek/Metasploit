@@ -83,10 +83,9 @@ ln -sf ${PREFIX}/opt/metasploit-framework/msfvenom ${PREFIX}/bin/
 ln -sf ${PREFIX}/opt/metasploit-framework/msfrpcd ${PREFIX}/bin/
 termux-elf-cleaner ${PREFIX}/lib/ruby/gems/*/gems/pg-*/lib/pg_ext.so
 
-
 clear
 display_logo
-echo "Installation Complete
+echo -e "\033[32m" # Blue color
+center "Installation completed"
 echo -e "\nStart Metasploit using the command: msfconsole"
-echo -e "\033[0m"
-
+echo -e "\033[0m" # Reset color
