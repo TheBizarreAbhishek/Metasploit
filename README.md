@@ -20,5 +20,5 @@ Using Metasploit
 Metasploit can do all sorts of things. The first thing you'll want to do
 is start `msfconsole`, but after that, you'll probably be best served by
 reading the basics of [using Metasploit](https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html)
-or [Metasploit Unleashed][unleashed].
+or [Metasploit Unleashed](https://www.offsec.com/metasploit-unleashed/)
 
