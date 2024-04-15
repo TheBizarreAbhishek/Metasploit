@@ -5,4 +5,11 @@
 ```
 source <(curl -fsSL https://raw.githubusercontent.com/TheBizarreAbhishek/Metasploit/main/metasploit.sh)
 ```
-##Manual
+## Manual
+```
+pkg install git
+git clone https://github.com/TheBizarreAbhishek/Metasploit.git
+cd Metasploit
+chmod +x metasploit.sh
+bash metasploit.sh
+```
